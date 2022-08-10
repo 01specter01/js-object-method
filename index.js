@@ -13,7 +13,8 @@ const student = {
     },
 };
 console.log(student.info());
-
+console.log();
+console.log("--------Aufgabe2---------");
 const teacher = {
     firstName: "John",
     lastName: "Smith",
@@ -26,3 +27,32 @@ const teacher = {
     },
 };
 console.log(teacher.text());
+console.log();
+console.log("--------Aufgabe3---------");
+
+const MyMath = {
+    ceil: function () {
+        return Math.ceil();
+    },
+    floor: function () {
+        return Math.floor();
+    },
+    pow: function () {
+        return Math.pow();
+    },
+    sqrt: function () {
+        return Math.sqrt();
+    },
+    abs: function () {
+        return Math.abs();
+    },
+    abs: function () {
+        return Math.abs();
+    },
+};
+console.log(this.ceil(2.4));
+console.log(this.floor(2.4));
+console.log(this.pow(2.3));
+console.log(this.sqrt(16));
+console.log(this.abs(-1));
+console.log(this.abs(1));
